@@ -1,0 +1,3 @@
+C:/Workspace/HDK/SOP_CopyPacked/out/build/x64-Debug (默认值)/CMakeFiles/SOP_CopyPacked.dir
+C:/Workspace/HDK/SOP_CopyPacked/out/build/x64-Debug (默认值)/CMakeFiles/edit_cache.dir
+C:/Workspace/HDK/SOP_CopyPacked/out/build/x64-Debug (默认值)/CMakeFiles/rebuild_cache.dir

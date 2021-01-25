@@ -1,0 +1,925 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/lei.gao/Documents/houdini18.5/dso/SOP_CopyToPoints.dll"
+		},
+		{
+			"path" : "C:/Users/lei.gao/Documents/houdini18.5/dso/SOP_CopyToPoints.lib"
+		},
+		{
+			"path" : "C:/Users/lei.gao/Documents/houdini18.5/dso/SOP_CopyToPoints.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/MD"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/bigobj"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/GR"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/EHsc"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/nologo"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/W1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w14996"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4355"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/std:c++14"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/Zc:forScope"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/Zc:rvalueCast"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/Zc:strictStrings"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/Zc:referenceBinding"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/Zc:ternary"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/Zc:throwingNew"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/Zc:__cplusplus"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/permissive-"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/Zc:externC-"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "AMD64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "EIGEN_MALLOC_ALREADY_ALIGNED=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FBX_ENABLED=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HBOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "I386"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MAKING_DSO"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "OPENCL_ENABLED=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "OPENVDB_ENABLED=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SESI_LITTLE_ENDIAN"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SIZEOF_VOID_P=8"
+				},
+				{
+					"define" : "SOP_CopyToPoints_EXPORTS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "STRICT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SWAP_BITFIELDS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "UT_ASSERT_LEVEL=2"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "VERSION=\"18.5.408\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_NONSTDC_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_HAS_ITERATOR_DEBUGGING=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_SCL_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN32_WINNT=0x0600"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Workspace/HDK/SOP_CopyToPoints/out/build/x64-Debug (默认值)"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/Side Effects Software/Houdini 18.5.408/toolkit/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/Side Effects Software/Houdini 18.5.408/toolkit/include/python2.7"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"id" : "SOP_CopyToPoints::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libHOMUI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libFUSE.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libMT.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libMDS.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libJEDI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libOP3D.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libDM.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libVISF.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGUI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGR.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSHOP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libVOP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libVCC.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libPI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libOP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libLM.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libFS.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libNET.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libUT.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libVM.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSYS.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libtools.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\hboost_system-mt-x64.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\tbb.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\tbbmalloc.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libcurlwrap.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libPRM.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCMD.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCH.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libDEP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libEXPR.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libHOM.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libPY.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libPXL.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCL.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libARR.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libTAKE.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libIMG.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libTBF.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libDD.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCVEX.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libPBR.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libVEX.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libTIL.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libhptex.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libIMG3D.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCE.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGVEX.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGT.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGU.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGSTY.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSTY.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGOP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGEO.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGD.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGA.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libTS.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libBV.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libKIN.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGQ.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libUI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libAU.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libRE.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libFONT.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libHARD.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libHAPIL.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libPYP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libPDG.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libPDGT.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libPDGE.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libPDGN.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libBM.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libFUI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSTORUI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libIPR.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libOPUI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libPSI2.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libBR.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSS.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCHOP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libOH.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libMOT.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libMGR.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libDOPZ.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSIMZ.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libOBJ.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSOP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSOPTG.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libDOP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libWIRE.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCLO.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSIM.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGAS.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libRBD.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGDT.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSOPZ.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libFBX.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libDAE.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCOP2.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libRU.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libTOP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libROP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSOHO.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libLOP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libHUSD.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libgusd.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libPDGD.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCOPZ.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCHOPZ.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCHOPNET.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCOPNET.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libVOPNET.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libTOPNET.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGABC.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libIMGUI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libGLTF.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSHLFUI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSHLF.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libVIS.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCV.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libSTOR.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libMH.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libQT.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libMCS.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libMWS.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libMPI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libMSS.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libMLS.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libIMS.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libIMP.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libIMH.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libIM.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libMATUI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libJIVE.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libCHUI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libTHOR.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libMIDI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libDTUI.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libHOMF.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libRAY.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libVPRM.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libVGEO.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\custom\\houdini\\dsolib\\libBRAY.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "SOP_CopyToPoints",
+	"nameOnDisk" : "SOP_CopyToPoints.dll",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "GEO_BuildPrimitives.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "GU_Copy2.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SOP_CopyToPointsHDK.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "GEO_BuildPrimitives.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "GU_Copy2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug (默认值)/SOP_CopyToPointsHDK.proto.h.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

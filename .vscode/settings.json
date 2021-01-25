@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "fstream": "cpp",
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "geoisosurface.C": "cpp",
+        "*.tcc": "cpp",
+        "algorithm": "cpp",
+        "SOP_BlahBlah.C": "cpp",
+        "SOP_Star.C": "cpp"
+    }
+}

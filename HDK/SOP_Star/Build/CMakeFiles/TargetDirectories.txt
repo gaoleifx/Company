@@ -1,0 +1,3 @@
+C:/Workspace/HDK/SOP_Star/Build/CMakeFiles/SOP_Star.dir
+C:/Workspace/HDK/SOP_Star/Build/CMakeFiles/ALL_BUILD.dir
+C:/Workspace/HDK/SOP_Star/Build/CMakeFiles/ZERO_CHECK.dir

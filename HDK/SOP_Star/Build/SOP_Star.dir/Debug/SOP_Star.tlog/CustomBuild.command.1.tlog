@@ -1,0 +1,24 @@
+^C:\WORKSPACE\HDK\SOP_STAR\BUILD\CMAKEFILES\D3E566B127063B149B3A397F913DC6F2\SOP_STAR.PROTO.H.RULE
+setlocal
+cd C:\Workspace\HDK\SOP_Star
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Side Effects Software\Houdini 18.5.408\python27\python2.7" "C:/Program Files/Side Effects Software/Houdini 18.5.408/houdini/python2.7libs/generate_proto.py" SOP_Star.C C:/Workspace/HDK/SOP_Star/Build/SOP_Star.proto.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\WORKSPACE\HDK\SOP_STAR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/HDK/SOP_Star -BC:/Workspace/HDK/SOP_Star/Build --check-stamp-file C:/Workspace/HDK/SOP_Star/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
