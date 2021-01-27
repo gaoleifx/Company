@@ -28,7 +28,9 @@ void getFiles(const string folderPath, vector<string> &allPath, bool isFolder)
             {
                 string current_path = folderPath + "\\" + fileInfo.name;
                 getFiles(current_path, allPath, true );
-                allPath.push_back(current_path);
+                //string newPath = "\""+current_path+"\",";
+                string newPath = current_path;
+                allPath.push_back(newPath);
                 //cout<<current_path<<endl;
             }
 
