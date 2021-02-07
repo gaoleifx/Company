@@ -42,7 +42,7 @@ int main()
 {
     ofstream ofs;
 
-    string path = "C:\\Program Files\\Side Effects Software\\Houdini 18.5.408\\toolkit\\include";
+    string path = "C:\\Program Files\\Autodesk\\Maya2019\\include";
     string writeInPath = "E:\\HoudiniProjects\\newProject";
     ofs.open(writeInPath+"\\"+"test.txt", ios::out);
 
