@@ -9,4 +9,6 @@
         "SOP_BlahBlah.C": "cpp",
         "SOP_Star.C": "cpp"
     }
+
+    //"python.pythonPath": "C:\\python27",
 }
